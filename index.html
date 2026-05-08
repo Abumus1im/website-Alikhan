@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Доктор Алихан Ибрагимов | Уролог-хирург | Консультации и лечение в Москве</title>
+  <meta name="description" content="Уролог-хирург Алихан Ибрагимов. Консультации и лечение урологических заболеваний. Запись на прием в Москве.">
+  <script src="https://cdn.jsdelivr.net/npm/inputmask@5.0.8/dist/inputmask.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- ============================================================ -->
+  <!-- БЛОК 1: HEADER                                                -->
+  <!-- При замене: удалить от <header> до </header> и вставить новый -->
+  <!-- ============================================================ -->
+  <header id="header" class="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">
+        <div class="logo__icon"><i class="fas fa-user-md"></i></div>
+        <div class="logo__text">
+          <div class="logo__name">Доктор Алихан</div>
+          <div class="logo__specialty">Хирург уролог-андролог</div>
+        </div>
+      </a>
+      
+      <nav id="nav" class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Главная</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+          <li class="nav__item"><a href="#blog" class="nav__link">Блог</a></li>
+          <li class="nav__item"><a href="#faq" class="nav__link">Вопросы</a></li>
+          <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header__actions">
+        <a href="#bookingModal" id="openBookingModal" class="btn btn--primary">Записаться</a>
+      </div>
+      
+      <button id="burger" class="burger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================================ -->
+  <!-- БЛОК 2: HERO (первый экран)                                   -->
+  <!-- При замене: удалить от <section id="home"> до </section>     -->
+  <!-- ============================================================ -->
+  <section id="home" class="hero">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <div class="badge">Врач высшей категории</div>
+        <h1 class="hero__name">Алихан Ибрагимов</h1>
+        <h2 class="hero__subtitle">Уролог-хирург с 7-летним опытом</h2>
+        
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__number">1000+</div>
+            <div class="stat__label">Пациентов</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">1000+</div>
+            <div class="stat__label">Успешных операций</div>
+          </div>
+          <div class="stat">
+            <div class="stat__number">24/7</div>
+            <div class="stat__label">Поддержка</div>
+          </div>
+        </div>
+        
+        <p class="hero__description">
+          Современная диагностика и лечение урологических заболеваний. 
+          Индивидуальный подход к каждому пациенту с применением 
+          малоинвазивных методик. Работаю в лучших клиниках Москвы.
+        </p>
+        
+        <div class="hero__actions">
+          <a href="#bookingModal" id="heroBookingBtn" class="btn btn--primary">Записаться на прием</a>
+          <a href="#services" class="btn btn--outline">Услуги и цены</a>
+        </div>
+        
+        <div class="hero__features">
+          <div class="feature">
+            <i class="fas fa-check-circle"></i>
+            <span>Консультация в день обращения</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-check-circle"></i>
+            <span>Онлайн и очный прием</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-check-circle"></i>
+            <span>Современное оборудование</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero__image">
+        <div class="image-wrapper">
+          <img src="/images/691240f2-7cc5-4d6b-bd05-a44276c12a52_removalai_preview.png" alt="Доктор Алихан Ибрагимов">
+        </div>
+        <div class="experience-badge">
+          <div class="years">7</div>
+          <div class="text">лет опыта</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- БЛОК 3: ABOUT (обо мне с аккордеоном)                        -->
+  <!-- При замене: удалить от <section id="about"> до </section>    -->
+  <!-- ============================================================ -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Обо мне</h2>
+        <p class="section-subtitle">Профессиональный путь и специализация</p>
+      </div>
+      
+      <div class="about__grid">
+        <div class="about__image">
+          <div class="image-frame">
+            <img src="/images/4b449f1d-418d-4dda-9039-39b5ba312877_removalai_preview.png" alt="Алихан Ибрагимов">
+          </div>
+          <button id="playVideoBtn" class="btn btn--outline btn--video" style="margin-top: 1.5rem; width: 100%;">
+            <i class="fas fa-play-circle"></i> Смотреть видео-визитку
+          </button>
+        </div>
+        
+        <div class="about__content">
+          <div class="about__info">
+            <h3 class="about__name">Алихан Ибрагимов</h3>
+            <p class="about__title">Врач-уролог, хирург высшей категории</p>
+          </div>
+
+          <!-- АККОРДЕОН (весь блок можно заменить) -->
+          <div class="accordion">
+            <!-- Образование -->
+            <div class="accordion-item">
+              <button class="accordion-header">
+                <span><i class="fas fa-graduation-cap"></i> Образование</span>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="accordion-content">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <div class="timeline-year">2021</div>
+                    <div class="timeline-content">
+                      <h5>Постдипломное образование, Урология</h5>
+                      <p>Ставропольская государственная медицинская академия, Ставрополь</p>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-year">2022</div>
+                    <div class="timeline-content">
+                      <h5>Постдипломное образование, Детская урология-андрология</h5>
+                      <p>Ставропольский государственный медицинский университет</p>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-year">2022</div>
+                    <div class="timeline-content">
+                      <h5>Врач ультразвуковой диагностики</h5>
+                      <p>АНО ДПО «Центральный многопрофильный институт»</p>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-year">2023</div>
+                    <div class="timeline-content">
+                      <h5>Повышение квалификации, Врач-уролог</h5>
+                      <p>Первый МГМУ им. И.М. Сеченова, Москва</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<!-- Сертификаты -->
+<div class="accordion-item">
+  <button class="accordion-header">
+    <span><i class="fas fa-certificate"></i> Сертификаты и дипломы</span>
+    <i class="fas fa-chevron-down"></i>
+  </button>
+  <div class="accordion-content">
+    <div class="certificates-gallery" id="certificatesGallery">
+  <!-- Обычный сертификат (одно изображение) -->
+  <div class="cert-thumb" 
+       data-src='["images/cert1.jpg"]' 
+       data-title="Сертификат по урологии">
+    <img src="/sertificates/example1.png" alt="Сертификат 1" loading="lazy">
+    <p>Сертификат по урологии</p>
+  </div>
+  
+  <!-- Сертификат из 3 страниц -->
+  <div class="cert-thumb" 
+       data-src='["/sertificates/example2.png", "/sertificates/example2.png", "/sertificates/example2.png"]' 
+       data-title="Диплом о высшем образовании">
+    <img src="/sertificates/example2.png" alt="Диплом" loading="lazy">
+    <p>Диплом о высшем образовании</p>
+  </div>
+  
+  <!-- Сертификат из 2 страниц -->
+  <div class="cert-thumb" 
+       data-src='["/sertificates/example1.png", "/sertificates/example1.png"]' 
+       data-title="УЗИ диагностика">
+    <img src="/sertificates/example1.png" alt="Сертификат УЗИ" loading="lazy">
+    <p>УЗИ диагностика</p>
+  </div>
+  
+  <!-- Можно добавлять дальше -->
+    </div>
+  </div>
+</div>
+
+            <!-- Основные направления -->
+            <div class="accordion-item">
+              <button class="accordion-header">
+                <span><i class="fas fa-stethoscope"></i> Основные направления</span>
+                <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="accordion-content">
+                <div class="tags">
+                  <span class="tag">Мочекаменная болезнь</span>
+                  <span class="tag">Мужское бесплодие</span>
+                  <span class="tag">Мочевыделительная</span>
+                  <span class="tag">Мужская интимная пластика</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- КОНЕЦ АККОРДЕОНА -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- ============================================================ -->
+  <!-- БЛОК 4: SERVICES (услуги с вкладками)                        -->
+  <!-- При замене: удалить от <section id="services"> до </section> -->
+  <!-- ============================================================ -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Услуги и процедуры</h2>
+        <p class="section-subtitle">Полный спектр урологической помощи</p>
+      </div>
+      
+      <div class="services-tabs">
+        <div class="tabs-header">
+          <button class="tab-btn active" data-tab="consultation">Консультации</button>
+          <button class="tab-btn" data-tab="diagnostics">Диагностика</button>
+          <button class="tab-btn" data-tab="treatment">Лечение</button>
+          <button class="tab-btn" data-tab="surgery">Операции</button>
+        </div>
+        
+        <!-- ===== ВКЛАДКА: КОНСУЛЬТАЦИИ ===== -->
+        <div id="consultation-tab" class="tab-pane active">
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-stethoscope"></i></div>
+              <h3 class="service-title">Первичная консультация</h3>
+              <p class="service-description">Полный осмотр, сбор анамнеза, постановка предварительного диагноза, разработка плана обследования и лечения.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>60 мин</span></div>
+                <div class="price">3 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Первичная консультация">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-video"></i></div>
+              <h3 class="service-title">Онлайн-консультация</h3>
+              <p class="service-description">Удаленная консультация через защищенный видеоканал. Анализ предоставленных документов, рекомендации по лечению.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>45 мин</span></div>
+                <div class="price">2 500 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Онлайн-консультация">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-clipboard-list"></i></div>
+              <h3 class="service-title">Повторный прием</h3>
+              <p class="service-description">Контроль лечения, коррекция терапии, оценка результатов анализов, дальнейшие рекомендации.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>30 мин</span></div>
+                <div class="price">2 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Повторный прием">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-users"></i></div>
+              <h3 class="service-title">Семейная консультация</h3>
+              <p class="service-description">Совместная консультация для пар по вопросам андрологии и планирования семьи. Комплексный подход.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>90 мин</span></div>
+                <div class="price">5 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Семейная консультация">Записаться</a>
+            </div>
+          </div>
+          
+          <!-- Блок "Как проходит консультация" -->
+          <div class="consultation-process">
+            <h3 class="process-title">Как проходит консультация</h3>
+            <div class="process-steps">
+              <div class="step">
+                <div class="step-number">1</div>
+                <h4>Запись</h4>
+                <p>Выбираете удобное время и формат приема</p>
+              </div>
+              <div class="step">
+                <div class="step-number">2</div>
+                <h4>Подготовка</h4>
+                <p>Собираете медицинские документы для консультации</p>
+              </div>
+              <div class="step">
+                <div class="step-number">3</div>
+                <h4>Консультация</h4>
+                <p>Обсуждение проблемы, осмотр, диагностика</p>
+              </div>
+              <div class="step">
+                <div class="step-number">4</div>
+                <h4>Рекомендации</h4>
+                <p>Получаете план обследования и лечения</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- ===== ВКЛАДКА: ДИАГНОСТИКА ===== -->
+        <div id="diagnostics-tab" class="tab-pane">
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-flask"></i></div>
+              <h3 class="service-title">Лабораторная диагностика</h3>
+              <p class="service-description">Полный спектр анализов крови, мочи, спермограмма, гормональные исследования.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>1-2 дня</span></div>
+                <div class="price">от 1 500 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Лабораторная диагностика">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-x-ray"></i></div>
+              <h3 class="service-title">УЗИ диагностика</h3>
+              <p class="service-description">УЗИ почек, мочевого пузыря, простаты, мошонки. Современное оборудование экспертного класса.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>30 мин</span></div>
+                <div class="price">2 500 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="УЗИ диагностика">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-syringe"></i></div>
+              <h3 class="service-title">Биопсия простаты</h3>
+              <p class="service-description">Трансректальная биопсия под УЗИ контролем. Безопасно, минимальный дискомфорт.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>45 мин</span></div>
+                <div class="price">15 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Биопсия простаты">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-brain"></i></div>
+              <h3 class="service-title">КТ/МРТ исследования</h3>
+              <p class="service-description">Направление и расшифровка томографических исследований. Полная диагностическая картина.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>2-3 дня</span></div>
+                <div class="price">от 5 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="КТ/МРТ исследования">Записаться</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- ===== ВКЛАДКА: ЛЕЧЕНИЕ (НОВЫЙ РАСШИРЕННЫЙ СПИСОК) ===== -->
+        <div id="treatment-tab" class="tab-pane">
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-ultrasound"></i></div>
+              <h3 class="service-title">УЗИ в урологии</h3>
+              <p class="service-description">Почек, мочевого пузыря, органов мошонки, полового члена.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>30 мин</span></div>
+                <div class="price">2 500 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="УЗИ в урологии">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-stone"></i></div>
+              <h3 class="service-title">Мочекаменная болезнь</h3>
+              <p class="service-description">Обследование и лечение (литотрипсия, консервативно).</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>инд.</span></div>
+                <div class="price">от 5 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Мочекаменная болезнь">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-venus-mars"></i></div>
+              <h3 class="service-title">Эректильная дисфункция</h3>
+              <p class="service-description">Диагностика и лечение импотенции.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>60 мин</span></div>
+                <div class="price">от 4 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Эректильная дисфункция">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-toilet"></i></div>
+              <h3 class="service-title">Проблемы мочеиспускания</h3>
+              <p class="service-description">Обследование и лечение нарушений.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>инд.</span></div>
+                <div class="price">от 3 500 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Проблемы мочеиспускания">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-microscope"></i></div>
+              <h3 class="service-title">Диагностическая цистоскопия</h3>
+              <p class="service-description">Осмотр мочевого пузыря изнутри.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>20 мин</span></div>
+                <div class="price">6 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Цистоскопия">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-female"></i></div>
+              <h3 class="service-title">Недержание мочи у женщин</h3>
+              <p class="service-description">Консервативное лечение.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>45 мин</span></div>
+                <div class="price">от 4 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Недержание мочи">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-kidneys"></i></div>
+              <h3 class="service-title">Пиелонефрит</h3>
+              <p class="service-description">Лечение воспаления почек.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>инд.</span></div>
+                <div class="price">от 3 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Пиелонефрит">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-shield-virus"></i></div>
+              <h3 class="service-title">ИППП</h3>
+              <p class="service-description">Диагностика и лечение инфекций.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>инд.</span></div>
+                <div class="price">от 2 500 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="ИППП">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-prostate"></i></div>
+              <h3 class="service-title">Простатит</h3>
+              <p class="service-description">Острый и хронический простатит.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>инд.</span></div>
+                <div class="price">от 3 500 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Простатит">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-bladder"></i></div>
+              <h3 class="service-title">Цистит</h3>
+              <p class="service-description">Лечение острого и хронического цистита.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>инд.</span></div>
+                <div class="price">от 3 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Цистит">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-baby"></i></div>
+              <h3 class="service-title">Мужское бесплодие</h3>
+              <p class="service-description">Диагностика и лечение.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>инд.</span></div>
+                <div class="price">от 5 000 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Мужское бесплодие">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-fetus"></i></div>
+              <h3 class="service-title">Ведение беременных с ИМП</h3>
+              <p class="service-description">Инфекции мочевых путей при беременности.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>инд.</span></div>
+                <div class="price">от 3 500 ₽</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Ведение беременных">Записаться</a>
+            </div>
+            
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-exclamation-triangle"></i></div>
+              <h3 class="service-title">Приапизм</h3>
+              <p class="service-description">Купирование (консервативно/оперативно).</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>экстр.</span></div>
+                <div class="price">по запросу</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Приапизм">Записаться</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- ===== ВКЛАДКА: ОПЕРАЦИИ (с галереей до/после и 18+) ===== -->
+        <div id="surgery-tab" class="tab-pane">
+          <div class="age-warning surgery-warning">
+            <i class="fas fa-exclamation-triangle"></i> 
+            Внимание! Содержит изображения интимного характера. Только для лиц старше 18 лет.
+          </div>
+          
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon"><i class="fas fa-scalpel"></i></div>
+              <h3 class="service-title">Операции в урологии</h3>
+              <p class="service-description">Малоинвазивные и открытые вмешательства.</p>
+              <div class="service-meta">
+                <div class="duration"><i class="far fa-clock"></i><span>инд.</span></div>
+                <div class="price">по запросу</div>
+              </div>
+              <a href="#bookingModal" class="btn btn--primary book-service" data-service="Операция">Записаться</a>
+            </div>
+          </div>
+          
+          <h3 class="gallery-subtitle">Результаты операций (до и после)</h3>
+          <div class="gallery-grid surgery-gallery">
+            <div class="gallery-item">
+              <div class="before-after">
+                <img src="images/before1.jpg" alt="До операции">
+                <img src="images/after1.jpg" alt="После операции">
+              </div>
+              <p>Интимная пластика</p>
+            </div>
+            <div class="gallery-item">
+              <div class="before-after">
+                <img src="images/before2.jpg" alt="До">
+                <img src="images/after2.jpg" alt="После">
+              </div>
+              <p>Коррекция уздечки</p>
+            </div>
+          </div>
+          <p class="gallery-note">* Изображения используются с согласия пациентов.</p>
+        </div>
+      </div>
+      
+      <div class="services-cta">
+        <div class="services-cta-content">
+          <h3>Полный прайс-лист доступен по запросу</h3>
+          <button id="downloadPrice" class="btn btn--outline">Скачать прайс</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- БЛОК 5: BLOG (мини-блог)                                      -->
+  <!-- При замене: удалить от <section id="blog"> до </section>     -->
+  <!-- ============================================================ -->
+  <section id="blog" class="blog">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Блог доктора</h2>
+        <p class="section-subtitle">Полезные статьи и рекомендации</p>
+      </div>
+      
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-card__image">
+            <img src="images/blog1.jpg" alt="Как подготовиться к УЗИ почек">
+          </div>
+          <div class="blog-card__content">
+            <div class="blog-card__date">15 марта 2026</div>
+            <h3 class="blog-card__title">Как подготовиться к УЗИ почек и мочевого пузыря</h3>
+            <p class="blog-card__excerpt">Правильная подготовка — залог точной диагностики. Рассказываю, что нужно сделать перед исследованием...</p>
+            <a href="blog/article1.html" class="blog-card__link">Читать далее <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-card__image">
+            <img src="images/blog2.jpg" alt="Простатит: мифы и правда">
+          </div>
+          <div class="blog-card__content">
+            <div class="blog-card__date">3 марта 2026</div>
+            <h3 class="blog-card__title">Простатит: 5 главных мифов и современные методы лечения</h3>
+            <p class="blog-card__excerpt">Многие мужчины боятся диагноза «простатит». Разбираю заблуждения и рассказываю о реальных способах терапии...</p>
+            <a href="blog/article2.html" class="blog-card__link">Читать далее <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-card__image">
+            <img src="images/blog3.jpg" alt="Когда идти к урологу">
+          </div>
+          <div class="blog-card__content">
+            <div class="blog-card__date">20 февраля 2026</div>
+            <h3 class="blog-card__title">Когда нужно обязательно посетить уролога: 7 тревожных симптомов</h3>
+            <p class="blog-card__excerpt">Многие проблемы легче предотвратить или вылечить на ранней стадии. Перечисляю признаки, требующие визита к врачу...</p>
+            <a href="blog/article3.html" class="blog-card__link">Читать далее <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="blog-cta">
+        <a href="blog.html" class="btn btn--outline">Все статьи блога</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- БЛОК 6: FAQ (частые вопросы)                                  -->
+  <!-- При замене: удалить от <section id="faq"> до </section>      -->
+  <!-- ============================================================ -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
+        <p class="section-subtitle">Ответы на популярные вопросы пациентов</p>
+      </div>
+      
+      <div class="faq-container">
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Как записаться на прием?</h4>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Вы можете записаться любым удобным способом: через форму на сайте, по телефону +7 (999) 123-45-67, в WhatsApp или Telegram. Мы свяжемся с вами для подтверждения записи.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Какие документы нужны для первого приема?</h4>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>При себе необходимо иметь: паспорт, полис ОМС (если есть), результаты предыдущих обследований (анализы, УЗИ, выписки). Если обследований не было - ничего дополнительно не требуется.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Как подготовиться к УЗИ мочевого пузыря?</h4>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>За 1-1.5 часа до исследования выпейте 1-1.5 литра негазированной воды и не мочитесь до проведения УЗИ. Мочевой пузырь должен быть наполнен для точной диагностики.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Нужна ли специальная подготовка к анализам?</h4>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Для общего анализа крови - натощак (8-12 часов без еды). Для анализа мочи - средняя порция утренней мочи в стерильный контейнер. Конкретные рекомендации зависят от вида исследования.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Выдаете ли вы больничные листы?</h4>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>Да, как лицензированный врач я имею право выдавать листки нетрудоспособности (больничные) на период лечения и восстановления после операций.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-cta">
+          <div class="faq-cta-content">
+            <i class="fas fa-question-circle"></i>
+            <div>
+              <h4>Не нашли ответ на свой вопрос?</h4>
+              <p>Задайте его напрямую доктору</p>
+            </div>
+          </div>
+          <button id="askQuestion" class="btn btn--primary">Задать вопрос</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- БЛОК 7: REVIEWS (отзывы)                                      -->
+  <!-- При замене: удалить от <section id="reviews"> до </section>  -->
+  <!-- ============================================================ -->
+  <section id="reviews" class="reviews">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Отзывы пациентов</h2>
+        <p class="section-subtitle">Истории выздоровления и благодарности</p>
+      </div>
+      
+      <div class="reviews-slider">
+        <div id="reviewsContainer" class="reviews-container">
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-info">
+                <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
+                <div>
+                  <div class="reviewer-name">Сергей Петров</div>
+                  <div class="review-date">15 ноября 2023</div>
+                </div>
+              </div>
+              <div class="review-rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="review-content">
+              <p>"Долго мучился с проблемой, несколько врачей не могли помочь. Доктор Алихан провел тщательное обследование, назначил эффективное лечение. Сейчас чувствую себя значительно лучше. Отдельно хочу отметить внимательное отношение и готовность ответить на все вопросы."</p>
+            </div>
+            <div class="review-tags">
+              <span class="tag">Мочекаменная болезнь</span>
+              <span class="tag">Литотрипсия</span>
+            </div>
+          </div>
+          
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-info">
+                <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
+                <div>
+                  <div class="reviewer-name">Александр Иванов</div>
+                  <div class="review-date">3 ноября 2023</div>
+                </div>
+              </div>
+              <div class="review-rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="review-content">
+              <p>"Выражаю огромную благодарность доктору за оперативное и точное решение моей проблемы. Лечение оказалось эффективным, восстановление прошло быстро. Очень доволен результатом и рекомендую специалиста всем, кто столкнулся с урологическими проблемами."</p>
+            </div>
+            <div class="review-tags">
+              <span class="tag">Простатит</span>
+              <span class="tag">Комплексное лечение</span>
+            </div>
+          </div>
+          
+          <div class="review-card">
+            <div class="review-header">
+              <div class="reviewer-info">
+                <div class="reviewer-avatar"><i class="fas fa-user"></i></div>
+                <div>
+                  <div class="reviewer-name">Марина Соколова</div>
+                  <div class="review-date">28 октября 2023</div>
+                </div>
+              </div>
+              <div class="review-rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="review-content">
+              <p>"Попала к доктору Алихану с острым состоянием. Врач быстро поставил диагноз и назначил лечение. Уже через несколько дней стало значительно лучше. Спасибо за профессиональный подход и человеческое отношение!"</p>
+            </div>
+            <div class="review-tags">
+              <span class="tag">Цистит</span>
+              <span class="tag">Срочная помощь</span>
+            </div>
+          </div>
+        </div>
+        
+        <button id="prevReview" class="slider-btn prev-btn">❮</button>
+        <button id="nextReview" class="slider-btn next-btn">❯</button>
+      </div>
+
+      <!-- Точки навигации слайдера -->
+      <div class="slider-dots" id="sliderDots"></div>
+      
+      <div class="reviews-actions">
+        <button id="addReviewBtn" class="btn btn--outline">Оставить отзыв</button>
+        <a href="#" class="btn btn--text">Все отзывы</a>
+      </div>
+    </div>
+  </section>
+
+    <!-- ============================================================ -->
+  <!-- БЛОК 8: CONTACT (контакты и форма)                           -->
+  <!-- При замене: удалить от <section id="contact"> до </section>  -->
+  <!-- ============================================================ -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Контакты и запись</h2>
+        <p class="section-subtitle">Свяжитесь со мной удобным способом</p>
+      </div>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <!-- Адрес 1 -->
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-details">
+              <h4>Клиника Бильданова</h4>
+              <p>г. Москва, м. Текстильщики, Волжский бульвар, 11</p>
+            </div>
+          </div>
+          
+          <!-- Адрес 2 -->
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-details">
+              <h4>МЦ «ММС» на Автозаводской</h4>
+              <p>г. Москва, ул. Восточная, д. 15/6</p>
+            </div>
+          </div>
+          
+          <!-- Часы работы -->
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div class="contact-details">
+              <h4>Часы работы</h4>
+              <p>Пн-Пт: 9:00 - 18:00</p>
+              <p>Сб: 10:00 - 15:00</p>
+              <p class="contact-note">Воскресенье - выходной</p>
+            </div>
+          </div>
+          
+          <!-- Телефоны -->
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-details">
+              <h4>Телефоны</h4>
+              <p><a href="tel:+79991234567" style="color: var(--gray-700); text-decoration: none;">+7 (999) 123-45-67</a></p>
+              <p><a href="tel:+74951234567" style="color: var(--gray-700); text-decoration: none;">+7 (495) 123-45-67</a></p>
+              <p class="contact-note">Звонки принимаются в рабочее время</p>
+            </div>
+          </div>
+          
+          <!-- Социальные сети -->
+          <div class="contact-social">
+            <h4>Быстрая связь</h4>
+            <div class="social-links">
+              <a href="https://wa.me/79991234567" class="social-link whatsapp" target="_blank" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://t.me/dr_alikhan" class="social-link telegram" target="_blank" title="Telegram">
+                <i class="fab fa-telegram"></i>
+              </a>
+              <a href="https://instagram.com/dr_alikhan" class="social-link instagram" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Форма записи -->
+        <div class="contact-form-wrapper">
+          <div class="form-header">
+            <h3>Запись на прием</h3>
+            <p>Заполните форму и я свяжусь с вами в течение 30 минут</p>
+          </div>
+          
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Ваше имя *</label>
+                <input type="text" id="name" name="name" required placeholder="Иван Иванов">
+              </div>
+              <div class="form-group">
+                <label for="phone">Телефон *</label>
+                <input type="tel" id="phone" name="phone" required placeholder="+7 (999) 123-45-67">
+              </div>
+            </div>
+            
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.ru">
+              </div>
+              <div class="form-group">
+                <label for="service">Услуга</label>
+                <select id="service" name="service">
+                  <option value="">Выберите услугу</option>
+                  <option value="consultation">Консультация уролога</option>
+                  <option value="diagnostics">Диагностика</option>
+                  <option value="treatment">Лечение</option>
+                  <option value="online">Онлайн-консультация</option>
+                  <option value="surgery">Операция</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="date">Предпочтительная дата</label>
+              <input type="date" id="date" name="date">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Сообщение (необязательно)</label>
+              <textarea id="message" name="message" rows="4" placeholder="Опишите вашу проблему или укажите удобное время для звонка"></textarea>
+            </div>
+            
+            <div class="form-consent">
+              <input type="checkbox" id="consent" name="consent" required checked>
+              <label for="consent">Я согласен на обработку персональных данных и принимаю <a href="#" style="color: var(--primary);">политику конфиденциальности</a></label>
+            </div>
+            
+            <button type="submit" class="btn btn--primary btn--large btn--block">
+              Отправить заявку
+            </button>
+            
+            <div class="form-note">
+              <i class="fas fa-shield-alt"></i>
+              <span>Ваши данные защищены и не будут переданы третьим лицам</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- БЛОК 9: FOOTER                                                -->
+  <!-- При замене: удалить от <footer> до </footer>                 -->
+  <!-- ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Колонка 1: О докторе -->
+        <div class="footer-col">
+          <div class="footer-logo">
+            <div class="logo-icon"><i class="fas fa-user-md"></i></div>
+            <div>
+              <h3>Доктор Алихан</h3>
+              <p>Уролог-хирург высшей категории</p>
+            </div>
+          </div>
+          <p class="footer-description">
+            Оказываю профессиональную помощь в диагностике и лечении 
+            урологических заболеваний с применением современных методик.
+          </p>
+          <div class="footer-social">
+            <a href="https://wa.me/79991234567" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://t.me/dr_alikhan" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+            <a href="https://instagram.com/dr_alikhan" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        
+        <!-- Колонка 2: Услуги -->
+        <div class="footer-col">
+          <h4>Услуги</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Консультация уролога</a></li>
+            <li><a href="#services">УЗИ диагностика</a></li>
+            <li><a href="#services">Анализы и обследования</a></li>
+            <li><a href="#services">Лечение простатита</a></li>
+            <li><a href="#services">Мочекаменная болезнь</a></li>
+            <li><a href="#services">Онлайн-консультации</a></li>
+          </ul>
+        </div>
+        
+        <!-- Колонка 3: Информация -->
+        <div class="footer-col">
+          <h4>Информация</h4>
+          <ul class="footer-links">
+            <li><a href="#about">О докторе</a></li>
+            <li><a href="#blog">Блог</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#faq">Вопрос-ответ</a></li>
+            <li><a href="#contact">Контакты</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Лицензии и сертификаты</a></li>
+          </ul>
+        </div>
+        
+        <!-- Колонка 4: Контакты -->
+        <div class="footer-col footer-contact">
+          <h4>Контакты</h4>
+          <p><i class="fas fa-map-marker-alt"></i> Клиника Бильданова: Волжский б-р, 11</p>
+          <p><i class="fas fa-map-marker-alt"></i> ММС: ул. Восточная, 15/6</p>
+          <p><i class="fas fa-phone"></i> <a href="tel:+79991234567" style="color: var(--gray-400);">+7 (999) 123-45-67</a></p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:info@dralikhan.ru" style="color: var(--gray-400);">info@dralikhan.ru</a></p>
+          <p><i class="fas fa-clock"></i> Пн-Пт: 9:00-18:00, Сб: 10:00-15:00</p>
+          
+          <div class="footer-subscribe">
+            <p>Подпишитесь на новости</p>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Ваш email">
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          © 2026 Доктор Алихан Ибрагимов. Все права защищены.
+        </div>
+        <div class="footer-payments">
+          <span>Принимаем к оплате:</span>
+          <i class="fab fa-cc-visa"></i>
+          <i class="fab fa-cc-mastercard"></i>
+          <i class="fab fa-cc-mir"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================ -->
+  <!-- БЛОК 10: КНОПКИ ПРОКРУТКИ И БЫСТРЫЕ КОНТАКТЫ                  -->
+  <!-- При замене: удалить оба блока и вставить новые               -->
+  <!-- ============================================================ -->
+  <!-- Кнопка "Наверх" -->
+  <button id="scrollTop" class="scroll-top" title="Наверх">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Быстрые контакты (плавающие) -->
+  <div class="quick-contacts">
+    <a href="tel:+79991234567" class="quick-contact phone" title="Позвонить">
+      <i class="fas fa-phone"></i>
+    </a>
+    <a href="https://wa.me/79991234567" class="quick-contact whatsapp" title="WhatsApp" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://t.me/dr_alikhan" class="quick-contact telegram" title="Telegram" target="_blank">
+      <i class="fab fa-telegram"></i>
+    </a>
+    <a href="https://instagram.com/dr_alikhan" class="quick-contact instagram" title="Instagram" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="mailto:info@dralikhan.ru" class="quick-contact envelope" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- БЛОК 11: МОДАЛЬНЫЕ ОКНА                                      -->
+  <!-- При замене: удалить все три modal и вставить новые           -->
+  <!-- ============================================================ -->
+  
+  <!-- Модальное окно: Запись на приём -->
+  <div id="bookingModal" class="modal">
+    <div class="modal-content">
+      <button id="closeBookingModal" class="modal-close">&times;</button>
+      <h2 class="modal-title">Запись на прием</h2>
+      
+      <form id="bookingForm">
+        <input type="hidden" id="bookingService" name="service">
+        
+        <div class="form-group">
+          <label for="bookingName">Ваше имя *</label>
+          <input type="text" id="bookingName" name="name" required placeholder="Иван Иванов">
+        </div>
+        
+        <div class="form-group">
+          <label for="bookingPhone">Телефон *</label>
+          <input type="tel" id="bookingPhone" name="phone" required placeholder="+7 (999) 123-45-67">
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="bookingDate">Дата приема</label>
+            <input type="date" id="bookingDate" name="date">
+          </div>
+          
+          <div class="form-group">
+            <label for="bookingTime">Время</label>
+            <select id="bookingTime" name="time">
+              <option value="">Выберите время</option>
+              <option value="9:00">9:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="12:00">12:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+              <option value="16:00">16:00</option>
+              <option value="17:00">17:00</option>
+            </select>
+          </div>
+        </div>
+        
+        <div class="form-consent">
+          <input type="checkbox" id="bookingConsent" name="consent" required checked>
+          <label for="bookingConsent">Я согласен на обработку персональных данных</label>
+        </div>
+        
+        <button type="submit" class="btn btn--primary btn--large btn--block">
+          Подтвердить запись
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Модальное окно: Задать вопрос -->
+  <div id="questionModal" class="modal">
+    <div class="modal-content">
+      <button id="closeQuestionModal" class="modal-close">&times;</button>
+      <h2 class="modal-title">Задать вопрос доктору</h2>
+      
+      <form id="questionForm">
+        <div class="form-group">
+          <label for="questionName">Ваше имя *</label>
+          <input type="text" id="questionName" name="name" required placeholder="Иван Иванов">
+        </div>
+        
+        <div class="form-group">
+          <label for="questionEmail">Email *</label>
+          <input type="email" id="questionEmail" name="email" required placeholder="example@mail.ru">
+        </div>
+        
+        <div class="form-group">
+          <label for="questionText">Ваш вопрос *</label>
+          <textarea id="questionText" name="question" rows="5" required placeholder="Опишите ваш вопрос..."></textarea>
+        </div>
+        
+        <div class="form-consent">
+          <input type="checkbox" id="questionConsent" name="consent" required checked>
+          <label for="questionConsent">Я согласен на обработку персональных данных</label>
+        </div>
+        
+        <button type="submit" class="btn btn--primary btn--large btn--block">
+          Отправить вопрос
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Модальное окно: Видео-визитка -->
+  <div id="videoModal" class="modal">
+    <div class="modal-content modal-video">
+      <button id="closeVideoModal" class="modal-close">&times;</button>
+      <h3 class="modal-title">Видео-визитка доктора</h3>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ВСТАВЬТЕ_ID" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- БЛОК 12: СКРИПТЫ                                              -->
+  <!-- ============================================================ -->
+  <script src="script.js"></script>
+</body>
+</html>
